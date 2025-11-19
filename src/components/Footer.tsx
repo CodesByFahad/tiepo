@@ -10,18 +10,12 @@ export function Footer() {
         <div className="flex flex-col items-center md:items-start">
           <Link href="/" className="shrink-0">
             <Logo className="h-8 w-auto" />
-            <span className="sr-only">Nimbus home</span>
+            <span className="sr-only">Tiepo home</span>
           </Link>
           <p className="mt-4 text-center text-sm md:text-left">
-            © {new Date().getFullYear()} Nimbus Keyboards. All rights reserved.
+            © {new Date().getFullYear()} Tiepo Keyboards. All rights reserved.
           </p>
         </div>
-        <nav className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 md:justify-end">
-          <FooterLink href="/products">Products</FooterLink>
-          <FooterLink href="/about">About</FooterLink>
-          <FooterLink href="/support">Support</FooterLink>
-          <FooterLink href="/contact">Contact</FooterLink>
-        </nav>
       </div>
     </Bounded>
   );
