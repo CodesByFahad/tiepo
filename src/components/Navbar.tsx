@@ -33,12 +33,12 @@ export function Navbar() {
   }
 
   return (
-    <header className="fixed top-0 right-0 left-0 z-50 flex items-center justify-between p-3 md:p-6">
+    <header className="fixed top-0 right-0 left-0 z-50 flex items-center justify-between py-4 px-4 md:py-6 md:px-6">
       <Link
         href="/"
         className="shrink-0 hover:scale-105 motion-safe:transition"
       >
-        <Logo className="h-6 w-auto md:h-8" />
+        <Logo className="h-10 w-auto md:h-14" />
       </Link>
       <div className="flex gap-3 md:gap-4">
         <button

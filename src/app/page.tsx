@@ -18,8 +18,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const page = await client.getSingle("homepage").catch(() => notFound());
 
   return {
-    title: page.data.meta_title,
-    description: page.data.meta_description,
+    title: "Tiepo Keyboards",
+    description: "Custom mechanical keyboards engineered for performance.",
     openGraph: {
       images: [{ url: asImageSrc(page.data.meta_image) ?? "" }],
     },
